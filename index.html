@@ -1,0 +1,16 @@
+name = input("whats your name ? ")
+print("im happy to see ",name)
+print("your last three expenses ",name)
+one=int(input("cost one : "))
+tow=int(input("cost tow : "))
+three=int(input("cost three : "))
+plural = (one + tow + three)
+if plural < 100000 :
+    print("low cost ... congratulations ",name)
+    print(plural ,"dollar")
+elif plural < 200000 :
+    print("it was almost good ",name)
+    print(plural , "dollar")
+else:
+    print("you cost a log ",name)
+    print(plural , "dollar")
